@@ -13,3 +13,8 @@ jobs:
         run: |
           node -v
           npm -v
+      - name: python command
+        run: |
+          a = 3 + 2
+          print('Ovo je izvrseno iz python-a', a)
+        shell: python
