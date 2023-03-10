@@ -7,6 +7,8 @@ jobs:
   run-guthb-actions:
     runs-on: ubuntu-latest
     steps:
+      - name: clone
+        uses: actions/checkout@v1
       - name: List Files
         run: |
           pwd
